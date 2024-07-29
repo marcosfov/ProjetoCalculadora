@@ -85,6 +85,10 @@ Este projeto é uma API de calculadora simples desenvolvida em C# que oferece op
   }
   ```
 
+## Pré-Requisitos
+
+###  .NET 6.0
+
 ## Configuração do Projeto
 
 1. **Clone o repositório**:
