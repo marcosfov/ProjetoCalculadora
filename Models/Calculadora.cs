@@ -4,7 +4,7 @@
     {
         public double Value1 { get; set; }
         public double Value2 { get; set; }
-        public double Resultado { get; set; }
+        public double Result { get; set; }
 
 
 
@@ -16,22 +16,22 @@
 
         public void sum()
         {
-            Resultado = Value1 + Value2;
+            Result = Value1 + Value2;
         }
 
         public void subtract()
         {
-            Resultado = Value1 - Value2;
+            Result = Value1 - Value2;
         }
 
         public void multiply()
         {
-            Resultado = Value1 * Value2;
+            Result = Value1 * Value2;
         }
 
         public void divide()
         {
-            Resultado = Value1 / Value2;
+            Result = Value1 / Value2;
         }
 
     }

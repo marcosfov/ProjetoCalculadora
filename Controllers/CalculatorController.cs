@@ -48,9 +48,9 @@ namespace CalculatorAPI.Controllers
             calc.Value1 = value1;
             calc.Value2 = value2;
 
-            if (value2 < 0) { 
-                throw new DivideByZeroException();
-             };
+            if (value2 == 0) {
+                return BadRequest("It is not possible to divide by zero. Try again with another value.");
+            };
 
             calc.divide();
             return Ok(calc);
