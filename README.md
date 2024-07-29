@@ -89,12 +89,12 @@ Este projeto é uma API de calculadora simples desenvolvida em C# que oferece op
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/marcosfov/Calculadora.git
+   git clone https://github.com/marcosfov/ProjetoCalculadora.git
    ```
 
 2. **Navegue até o diretório do projeto**:
    ```bash
-   cd Calculadora
+   cd ProjetoCalculadora
    ```
 
 3. **Restaure as dependências**:
